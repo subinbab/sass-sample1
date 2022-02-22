@@ -1,0 +1,42 @@
+header{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    display: flex;
+    .logo{
+        float: left;
+        padding-top: 13px;
+        padding-left: 10px;
+        #logoImage{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    .logoText{
+        float: left;
+        margin-left: 5px;
+        margin-top:7px;
+        
+    }
+    .search{
+        float: left;
+        margin-top: 37px;
+        margin-left: 100px;
+    }
+    nav{
+        ul{
+            // float: left;
+            margin-left:10px;
+            list-style: none;
+            
+            li{
+                float: left;
+                margin-left: 27px;
+            }
+        }
+        
+    }
+}
